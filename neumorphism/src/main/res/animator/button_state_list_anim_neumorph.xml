@@ -5,7 +5,7 @@
         android:state_pressed="true">
         <set>
             <objectAnimator
-                android:duration="20"
+                android:duration="10"
                 android:interpolator="@android:interpolator/linear"
                 android:propertyName="translationZ"
                 android:valueTo="-5dp"
@@ -15,10 +15,10 @@
     <item android:state_enabled="true">
         <set>
             <objectAnimator
-                android:duration="20"
+                android:duration="10"
                 android:interpolator="@android:interpolator/linear"
                 android:propertyName="translationZ"
-                android:startDelay="20"
+                android:startDelay="0"
                 android:valueTo="0"
                 android:valueType="floatType" />
         </set>
